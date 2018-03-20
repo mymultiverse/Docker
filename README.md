@@ -16,9 +16,13 @@ open a new bash shell in this container
 Status of running containers
 
     docker ps
-Stoping container with image name
+Stoping container with image_name
 
     docker stop $(docker ps -q --filter ancestor = image)
+    
+Remove container
+
+    sudo docker rm container_name
     
 #### References
 [1.](https://stackoverflow.com/questions/32073971/stopping-docker-containers-by-image-name-ubuntu)
