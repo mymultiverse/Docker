@@ -4,6 +4,15 @@
 Runing a container
 
     docker run -it "Container image"
+    
+start the container
+     
+    sudo docker start container_name
+
+open a new bash shell in this container
+    
+    sudo docker exec -it container_name bash
+
 Status of running containers
 
     docker ps
